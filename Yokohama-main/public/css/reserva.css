@@ -111,27 +111,29 @@ nav a:hover {
 }
 
 #inicial h2 {
-    font-size: 45px;
+    font-size: 40px;
     margin: 2%;
 }
 
 #reservar {
     background: #840b13;
     color: white;
-    width: 70vw;
+    width: 80vw;
     height: 17vh;
-    padding: 6vh;
+    padding: 8vh;
     border-radius:15px;
     margin: -7.5vh auto 0vh;
     align-items: center;
 }
 
+
+
 label {
-    font-size: 22px; 
+    font-size: 18px; 
 }
 
 #reservar form {
-    width: 95%;
+    /*width: 95%;*/
     display: flex;
     justify-content: space-between;
     margin-top: 20px;
@@ -173,7 +175,7 @@ label {
     color: black;
 }
 
-#reservar button[type="submit"] {
+#reservado {
     background: #61161b;
     border: 2px;
     color: #FFF;
@@ -181,11 +183,11 @@ label {
     font-size: 16px;
     cursor: pointer;
     outline: none;
-    padding: 17px;
+    padding: 12px;
 }
 
 #reservar h1 {
-    font-size: 24px;
+    font-size: 22px;
     text-transform: uppercase;  
     display: flex;
     justify-content: center;
@@ -203,6 +205,7 @@ label {
 #mesa .mesa-imagem {
     display: flex;
     height: 190px;
+    
 }
 
 .mesas {
@@ -290,4 +293,7 @@ footer {
     display: flex;
     justify-content: center;
   }
+
+  
+
   

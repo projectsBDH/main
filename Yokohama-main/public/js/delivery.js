@@ -7,3 +7,7 @@ logoL.addEventListener('click', () => {
 logos.addEventListener('click', () => {
     window.location.href = '/'
 });
+
+// document.getElementById('a').addEventListener("click", function(event){
+//     event.preventDefault()
+//   });
